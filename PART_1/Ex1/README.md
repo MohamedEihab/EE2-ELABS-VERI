@@ -11,7 +11,14 @@ We downloaded the partially completed schematic design from online for the 7 seg
 We then compiled the designed, assigned the pins and programmed the FPGA. The device worked as expect, fliping the switches in binary produces a HEX number from 0-F.
 
 ###Timing Analyser & Resources
-We looked at the timing for the design, comparing 4 different models. "Slow 1100mV 0C Model", **COMPLETE THIS SHIT**
-As you can see blah blah
+We looked at the timing for the design, comparing different models. "Slow 1100mV 0C Model", "Slow 1100mV 85C Model". RR means time it takes for logic board to go from 1-1 on input and ouput, while EF (Fall Fall) is for 0-0. 
+
+**ADD PICTURES HERE FOR TIMING DIAGRAMS**
+
+We know speed is important, as high latency limits how high your clock frequency can be.
+
+As you can see the 85C model has increased propgration delay through the board. This tell us two things: 
+* Due to heating increasing resistance throughout the board means signals travel slower
+* Higher temperature has to be accounted for when picking clock speed
 
 The designed used very little resources at only 4 out of 32070 ALM and 11 out of 457 pins.
