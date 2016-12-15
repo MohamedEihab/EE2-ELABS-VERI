@@ -6,14 +6,15 @@ To use the switches as a 4 bit binary input which is reflected as hexadecimal on
 
 ##Results
 
-We downloaded the partially completed schematic design from online for the 7 segment decoder. All the inputs and outputs blocks were created except the block used for out[4] - output of the 4th part of 7-segment display. We created schematic block needed to produce out[4] which happened to be **/IN3 AND IN0 COMPLETE THIS PART MOHAMMED**.
+We downloaded the partially completed schematic design from online for the 7 segment decoder. All the inputs and outputs blocks were created except the block used for out[4] - output of the 4th part of 7-segment display. We created schematic block needed to produce out[4] which happened to be (/in3 AND in0) OR (/in3 AND in2 AND /in1) OR (/in2 AND /in1 AND in0).
 
 We then compiled the designed, assigned the pins and programmed the FPGA. The device worked as expect, fliping the switches in binary produces a HEX number from 0-F.
 
 ###Timing Analyser & Resources
 We looked at the timing for the design, comparing different models. "Slow 1100mV 0C Model", "Slow 1100mV 85C Model". RR means time it takes for logic board to go from 1-1 on input and ouput, while EF (Fall Fall) is for 0-0. 
 
-**ADD PICTURES HERE FOR TIMING DIAGRAMS**
+![](https://github.com/MohamedEihab/EE2-ELABS-VERI/blob/master/screenshots/2.png?raw=true)
+![](https://github.com/MohamedEihab/EE2-ELABS-VERI/blob/master/screenshots/3.png?raw=true)
 
 We know speed is important, as high latency limits how high your clock frequency can be.
 
