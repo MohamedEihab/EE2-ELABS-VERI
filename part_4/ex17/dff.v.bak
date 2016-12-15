@@ -1,0 +1,15 @@
+module dff(
+	IN,
+	OUT,
+	CLOCK
+);
+
+input IN;
+input CLOCK;
+output OUT;
+
+
+always @(posedge CLOCK)
+	OUT <= IN;
+
+endmodule

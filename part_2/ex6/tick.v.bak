@@ -1,0 +1,19 @@
+module tick(
+	CLOCK_50,
+	clock_out
+);
+
+input CLOCK_50;
+output clock_out;
+reg [15:0] counter;
+
+always @ (posedge clock & negedge clock)
+	if (counter < 16'd25000)
+	begin
+		counter = counter + 1;
+	end
+	else
+		counter = 0;
+		clock_out = !clock_out;
+	
+endmodule

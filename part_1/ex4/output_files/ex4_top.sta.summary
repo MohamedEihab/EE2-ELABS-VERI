@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'SW[1]'
+Slack : -6.975
+TNS   : -44.814
+
+Type  : Slow 1100mV 85C Model Setup 'SW[2]'
+Slack : -6.954
+TNS   : -88.404
+
+Type  : Slow 1100mV 85C Model Hold 'SW[2]'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'SW[1]'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'SW[2]'
+Slack : -0.811
+TNS   : -20.276
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'SW[1]'
+Slack : -0.523
+TNS   : -7.664
+
+Type  : Slow 1100mV 0C Model Setup 'SW[2]'
+Slack : -6.849
+TNS   : -87.325
+
+Type  : Slow 1100mV 0C Model Setup 'SW[1]'
+Slack : -6.777
+TNS   : -43.607
+
+Type  : Slow 1100mV 0C Model Hold 'SW[2]'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'SW[1]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'SW[2]'
+Slack : -0.904
+TNS   : -23.096
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'SW[1]'
+Slack : -0.579
+TNS   : -8.327
+
+Type  : Fast 1100mV 85C Model Setup 'SW[1]'
+Slack : -4.965
+TNS   : -31.954
+
+Type  : Fast 1100mV 85C Model Setup 'SW[2]'
+Slack : -4.948
+TNS   : -62.391
+
+Type  : Fast 1100mV 85C Model Hold 'SW[2]'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'SW[1]'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'SW[2]'
+Slack : -0.688
+TNS   : -32.641
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'SW[1]'
+Slack : -0.574
+TNS   : -11.849
+
+Type  : Fast 1100mV 0C Model Setup 'SW[1]'
+Slack : -4.480
+TNS   : -28.929
+
+Type  : Fast 1100mV 0C Model Setup 'SW[2]'
+Slack : -4.472
+TNS   : -56.711
+
+Type  : Fast 1100mV 0C Model Hold 'SW[2]'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'SW[1]'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'SW[2]'
+Slack : -0.722
+TNS   : -35.110
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'SW[1]'
+Slack : -0.596
+TNS   : -12.379
+
+------------------------------------------------------------
