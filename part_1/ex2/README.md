@@ -6,4 +6,4 @@ We had to implement a similar binary to 7 segment decoder like exercise 1. This 
 
 ##Results
 
-Using Verilog turned out to be much simplier than using schematic design. It is easier to read the modules and edit the code. The ability to use variable names and comments also means your code can be understood be others. Once the project was compiled, it used the same amount of resources as schematic design.
+Using Verilog turned out to be much quicker than using the schematic design editor. It is easier to read the modules and edit the code. The ability to use variable names and comments also means your code can be understood be others. Once the project was compiled, it used the same amount of resources as schematic design and worked in exactly the same way.
