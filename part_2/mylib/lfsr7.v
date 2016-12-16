@@ -1,4 +1,4 @@
-module lfsr7(data_out, clk)
+module lfsr7(data_out, clk);
 
 	output [7:1] data_out;
 	input clk;
@@ -8,7 +8,7 @@ module lfsr7(data_out, clk)
 	initial sreg = 7'b1;
 	
 	always @ (posedge clk)
-		sreg <= {sreg[7:1], sreg[7] ^ sreg[1]};
+		sreg <= {sreg[6:1], sreg[7] ^ sreg[1]};
 		
 	assign data_out = sreg;
 	
