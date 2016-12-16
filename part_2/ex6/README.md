@@ -6,7 +6,7 @@ We needed to extend the 8 bit counter from exercise 5 into a 16 bit counter and 
 
 ##Results
 
-We implemented the 16 bit counter following the schema we were provided:
+We implemented the 16 bit counter following the schematic we were provided with:
 
 ![](https://raw.githubusercontent.com/MohamedEihab/EE2-ELABS-VERI/master/screenshots/6a.PNG)
 ![](https://raw.githubusercontent.com/MohamedEihab/EE2-ELABS-VERI/master/screenshots/6.PNG)
